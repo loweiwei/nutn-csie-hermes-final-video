@@ -1,0 +1,13 @@
+file '/home/vivian/Desktop/nutn_csie_hermes_final_project/outputs/generated_slides/slide_01.png'
+duration 5
+file '/home/vivian/Desktop/nutn_csie_hermes_final_project/outputs/generated_slides/slide_02.png'
+duration 10
+file '/home/vivian/Desktop/nutn_csie_hermes_final_project/outputs/generated_slides/slide_03.png'
+duration 15
+file '/home/vivian/Desktop/nutn_csie_hermes_final_project/outputs/generated_slides/slide_04.png'
+duration 15
+file '/home/vivian/Desktop/nutn_csie_hermes_final_project/outputs/generated_slides/slide_05.png'
+duration 10
+file '/home/vivian/Desktop/nutn_csie_hermes_final_project/outputs/generated_slides/slide_06.png'
+duration 5
+file '/home/vivian/Desktop/nutn_csie_hermes_final_project/outputs/generated_slides/slide_06.png'

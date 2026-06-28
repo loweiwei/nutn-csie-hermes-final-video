@@ -1,0 +1,147 @@
+{
+  "project_title": "NUTN CSIE 60-second promotional video",
+  "project_info": {
+    "topic": "NUTN CSIE 60-second promotional video",
+    "target_audience": ["high school students", "prospective freshmen", "parents", "general viewers"],
+    "core_message": "資訊工程學習從程式、資料、AI、系統與網路出發，透過實作與合作把想法做成可運作的作品。",
+    "platform": "Hermes Agent on Linux",
+    "primary_production_method": "self-shot campus footage with subtitles",
+    "fallback_production_method": "Python/PIL generated slides",
+    "total_estimated_duration_seconds": 60,
+    "format": "MP4, 16:9 horizontal, 1920x1080 submitted export"
+  },
+  "workflow_plan": {
+    "next_steps": [
+      {
+        "agent": "Script Agent",
+        "task": "Write concise subtitles and optional voiceover for each scene, avoiding unverified claims."
+      },
+      {
+        "agent": "Visual Agent",
+        "task": "Convert each scene into a practical shooting list with camera framing, actions, alternatives, and safety notes."
+      },
+      {
+        "agent": "Reviewer Agent",
+        "task": "Check length, truthfulness, copyright, portrait rights, privacy, and zero-paid-token feasibility."
+      },
+      {
+        "agent": "Finalizer Agent",
+        "task": "Consolidate the final shooting plan, subtitles, edit checklist, asset source notes, and repo submission checklist."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "scene_id": 1,
+      "time_range": "00:00-00:05",
+      "duration_seconds": 5,
+      "purpose": "opening hook",
+      "message": "用一個快速開場讓觀眾知道這是關於科技與實作的影片。",
+      "shooting_location_options": ["教室座位", "筆電桌面", "校園室內公共空間"],
+      "visual_description": "手打開筆電、鍵盤打字、螢幕出現程式碼或專題畫面，節奏要快。",
+      "suggested_shots": [
+        "Close-up: 手按下筆電電源或打開筆電，約 1.5 秒。",
+        "Close-up: 鍵盤打字或滑鼠操作，約 1.5 秒。",
+        "Over-the-shoulder: 螢幕上顯示不含私人資料的程式碼，約 2 秒。"
+      ],
+      "subtitle_focus": "在資訊工程的學習裡，一個想法可以從草稿開始，慢慢變成真的能運作的系統。",
+      "asset_requirements": ["self-shot laptop footage", "safe demo code screen", "subtitle overlay"],
+      "risk_notes": ["不要拍到帳號、密碼、API key、私人聊天視窗", "程式碼可使用測試檔或範例畫面"]
+    },
+    {
+      "scene_id": 2,
+      "time_range": "00:05-00:15",
+      "duration_seconds": 10,
+      "purpose": "department identity",
+      "message": "明確建立主題：國立臺南大學資訊工程學系。",
+      "shooting_location_options": ["校園建築外觀", "教室外走廊", "系館或上課空間外觀"],
+      "visual_description": "拍攝校園或教學空間，搭配系名字幕；不依賴未授權 logo。",
+      "suggested_shots": [
+        "Wide shot: 校園或建築外觀，約 4 秒。",
+        "Medium shot: 走進教室或走廊，約 3 秒。",
+        "Static shot: 乾淨背景上加上系名字幕，約 3 秒。"
+      ],
+      "subtitle_focus": "從程式設計出發，我們學習分析問題、拆解需求，並用技術做出清楚的解決方法。",
+      "asset_requirements": ["self-shot campus footage", "department title text", "subtitle overlay"],
+      "risk_notes": ["避免特寫未確認授權的校徽或 logo", "若畫面中有路人臉部，剪掉或模糊處理"]
+    },
+    {
+      "scene_id": 3,
+      "time_range": "00:15-00:30",
+      "duration_seconds": 15,
+      "purpose": "learning fields",
+      "message": "呈現資工學習領域：程式、資料、AI、系統、網路與應用。",
+      "shooting_location_options": ["教室", "電腦桌", "白板前", "自習空間"],
+      "visual_description": "用螢幕、白板與筆記畫面呈現不同學習主題，不做誇大排名或設備宣稱。",
+      "suggested_shots": [
+        "Close-up: 螢幕顯示簡單程式或專題 demo，約 4 秒。",
+        "Medium shot: 白板寫上 AI / Data / System / Network，約 4 秒。",
+        "Insert shot: 筆記、課本或流程圖，約 3 秒。",
+        "Over-the-shoulder: 操作 demo 或資料圖表，約 4 秒。"
+      ],
+      "subtitle_focus": "課程不只是在寫程式，也包含資料處理、人工智慧、系統設計、網路與各種實際應用。",
+      "asset_requirements": ["safe code/demo footage", "whiteboard keywords", "study materials", "subtitle overlay"],
+      "risk_notes": ["不要聲稱頂尖、排名、特定設備或就業成果", "白板與螢幕內容需可公開"]
+    },
+    {
+      "scene_id": 4,
+      "time_range": "00:30-00:45",
+      "duration_seconds": 15,
+      "purpose": "practice and teamwork",
+      "message": "強調理論、實作與團隊合作，將知識轉成作品。",
+      "shooting_location_options": ["小組討論桌", "教室", "白板前", "專題展示桌"],
+      "visual_description": "拍攝小組討論、指著螢幕講解、白板規劃與 demo 操作。",
+      "suggested_shots": [
+        "Medium shot: 2-3 人圍著筆電討論，約 5 秒。",
+        "Close-up: 手指向螢幕中的 demo 或流程圖，約 3 秒。",
+        "Medium shot: 在白板畫專題流程，約 4 秒。",
+        "Insert shot: demo 畫面或簡報頁，約 3 秒。"
+      ],
+      "subtitle_focus": "透過專題實作和團隊合作，我們把課堂上的知識轉換成可以展示、可以改進的作品。",
+      "asset_requirements": ["group discussion footage", "demo screen", "whiteboard plan", "subtitle overlay"],
+      "risk_notes": ["所有可辨識人物需同意入鏡", "不要拍到私人資料或未公開專題內容"]
+    },
+    {
+      "scene_id": 5,
+      "time_range": "00:45-00:55",
+      "duration_seconds": 10,
+      "purpose": "learning atmosphere",
+      "message": "呈現持續討論、除錯與修正的學習過程。",
+      "shooting_location_options": ["教室", "走廊", "電腦桌", "白板前"],
+      "visual_description": "拍攝 debug、修改程式、討論 checklist、擦掉白板再重寫等畫面。",
+      "suggested_shots": [
+        "Close-up: 螢幕顯示 debug 或 terminal，但內容需無敏感資訊，約 3 秒。",
+        "Insert shot: 紙上 checklist 或待辦事項，約 2 秒。",
+        "Medium shot: 同學討論後點頭或修改白板，約 3 秒。",
+        "Close-up: 儲存檔案或再次執行程式，約 2 秒。"
+      ],
+      "subtitle_focus": "每一次討論、測試和除錯，都是累積經驗的過程，也讓作品更接近完成。",
+      "asset_requirements": ["debug footage", "checklist shot", "revision action", "subtitle overlay"],
+      "risk_notes": ["terminal 不可出現 token、路徑中的私人姓名或帳號", "避免拍到聊天通知"]
+    },
+    {
+      "scene_id": 6,
+      "time_range": "00:55-01:00",
+      "duration_seconds": 5,
+      "purpose": "closing call-to-action",
+      "message": "用乾淨結尾收束影片，留下系名與歡迎認識的訊息。",
+      "shooting_location_options": ["校園遠景", "教室空景", "筆電桌面", "乾淨牆面"],
+      "visual_description": "使用校園遠景或筆電合上作為收尾，畫面放上系名與 slogan。",
+      "suggested_shots": [
+        "Wide shot: 校園遠景或走廊空景，約 3 秒。",
+        "Static end card: 黑底或乾淨背景加上 NUTN CSIE 與中文系名，約 2 秒。"
+      ],
+      "subtitle_focus": "在這裡，我們用程式連結創意與實作，讓資訊能力成為面向未來的力量。",
+      "asset_requirements": ["self-shot closing footage", "text end card", "subtitle overlay"],
+      "risk_notes": ["若加入網址，需確認官方網址正確", "不要使用未授權官方 logo"]
+    }
+  ],
+  "constraints_check": {
+    "target_length_seconds": 60,
+    "accepted_length_range_seconds": "55-65",
+    "calculated_length_seconds": 64.5,
+    "zero_paid_tokens_compliance": true,
+    "official_logo_usage": false,
+    "unverified_claims_status": "No ranking, admission score, employment rate, specific lab equipment, or unverifiable achievement claims are included."
+  }
+}

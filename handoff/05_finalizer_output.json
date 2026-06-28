@@ -1,0 +1,86 @@
+{
+  "project_title": "NUTN CSIE 60-second promotional video",
+  "final_production_summary": {
+    "project_title": "NUTN CSIE 60-second promotional video",
+    "target_duration_seconds": 60,
+    "final_export_duration_seconds": 64.5,
+    "accepted_duration_range_seconds": "55-65",
+    "resolution": "1920x1080 MP4",
+    "video_codec": "H.264",
+    "audio_codec": "AAC",
+    "fps": 30,
+    "primary_visual_style": "self-shot campus and study footage",
+    "fallback_visual_style": "Python/PIL generated slides retained as zero-paid-token backup"
+  },
+  "integrated_timeline": [
+    {
+      "timestamp": "00:00 - 00:05",
+      "scene_id": 1,
+      "visual": "Laptop opening, keyboard typing, safe demo code on screen.",
+      "subtitle": "在資訊工程的學習裡，一個想法可以從草稿開始，慢慢變成真的能運作的系統。",
+      "editing_note": "Use quick cuts; avoid private screen content."
+    },
+    {
+      "timestamp": "00:05 - 00:15",
+      "scene_id": 2,
+      "visual": "Campus or classroom establishing shots with department name text overlay.",
+      "subtitle": "從程式設計出發，我們學習分析問題、拆解需求，並用技術做出清楚的解決方法。",
+      "editing_note": "Use text title instead of unauthorized logo."
+    },
+    {
+      "timestamp": "00:15 - 00:30",
+      "scene_id": 3,
+      "visual": "Code screen, whiteboard keywords, notes, and demo operation.",
+      "subtitle": "課程不只是在寫程式，也包含資料處理、人工智慧、系統設計、網路與各種實際應用。",
+      "editing_note": "Avoid ranking or unverified equipment claims."
+    },
+    {
+      "timestamp": "00:30 - 00:45",
+      "scene_id": 4,
+      "visual": "Group discussion, screen pointing, whiteboard planning, and demo presentation.",
+      "subtitle": "透過專題實作和團隊合作，我們把課堂上的知識轉換成可以展示、可以改進的作品。",
+      "editing_note": "Use consenting participants or crop faces."
+    },
+    {
+      "timestamp": "00:45 - 00:55",
+      "scene_id": 5,
+      "visual": "Debugging, checklist, revision, and rerun/save action.",
+      "subtitle": "每一次討論、測試和除錯，都是累積經驗的過程，也讓作品更接近完成。",
+      "editing_note": "Crop terminal usernames, tokens, and private paths."
+    },
+    {
+      "timestamp": "00:55 - 01:04.5",
+      "scene_id": 6,
+      "visual": "Campus closing shot or clean title card.",
+      "subtitle": "在這裡，我們用程式連結創意與實作，讓資訊能力成為面向未來的力量。",
+      "editing_note": "Fade out cleanly; keep final title readable."
+    }
+  ],
+  "production_checklist": {
+    "before_shooting": [
+      "Prepare safe demo code or mock screens.",
+      "Confirm who will appear on camera and get consent.",
+      "Plan 10-15 short clips so editing is flexible.",
+      "Shoot horizontally in 16:9."
+    ],
+    "during_editing": [
+      "Keep final length between 55 and 65 seconds.",
+      "Add subtitles from outputs/subtitles.srt or equivalent burned-in captions.",
+      "Remove or blur private screen information.",
+      "Avoid unlicensed music or media."
+    ],
+    "after_export": [
+      "Save final video as outputs/final_video.mp4.",
+      "Update outputs/asset_sources.md with real footage source and consent notes.",
+      "Check README and report still point to the correct final video.",
+      "Confirm the GitHub repo is public before Ecourse submission."
+    ]
+  },
+  "repository_status": {
+    "agent_files": "Complete and optimized for self-shot workflow",
+    "handoff_files": "Complete",
+    "storyboard": "Detailed self-shot storyboard available at outputs/video_storyboard.md",
+    "final_video": "Submitted self-edited video is stored at outputs/final_video.mp4",
+    "asset_sources": "Updated with final video, subtitle, audio, fallback, and safety notes"
+  }
+}

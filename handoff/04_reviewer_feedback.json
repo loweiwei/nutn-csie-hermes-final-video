@@ -1,0 +1,60 @@
+{
+  "project_title": "NUTN CSIE 60-second promotional video",
+  "review_status": "approved_with_shooting_notes",
+  "checks": {
+    "video_length_55_to_65_seconds": "pass: final exported duration is 64.5 seconds",
+    "theme_relevance": "pass: scenes explicitly identify NUTN CSIE and computer science learning",
+    "multi_agent_workflow": "pass: Planner, Script, Visual, Reviewer, and Finalizer roles are separated",
+    "handoff_traceability": "pass: each agent output is stored as JSON and can be traced to storyboard scenes",
+    "truthfulness": "pass: wording avoids rankings, admission scores, employment rates, unverified lab names, and specific equipment claims",
+    "copyright": "pass with condition: self-shot/self-edited footage is acceptable; any added music, icons, photos, templates, or fonts must be self-made, editor-provided royalty-free assets, or openly licensed and documented",
+    "portrait_rights": "pass with condition: identifiable people in self-shot footage must give permission",
+    "privacy": "pass with condition: screens must be checked for private accounts, passwords, API keys, chat windows, student IDs, and grades",
+    "zero_paid_token": "pass: workflow can be completed using Hermes mock/stub outputs, phone shooting, local editing, and subtitles"
+  },
+  "scene_review": [
+    {
+      "scene_id": 1,
+      "risk": "Computer screen may reveal private data.",
+      "required_fix": "Use mock code or crop/blur screen content before export."
+    },
+    {
+      "scene_id": 2,
+      "risk": "Campus or department signage may include logos or bystanders.",
+      "required_fix": "Use text title overlay instead of unauthorized logo; avoid or blur bystanders."
+    },
+    {
+      "scene_id": 3,
+      "risk": "Learning-field claims could become too broad or exaggerated.",
+      "required_fix": "Keep wording to general fields such as programming, data, AI, systems, and network applications."
+    },
+    {
+      "scene_id": 4,
+      "risk": "Group discussion footage includes identifiable people.",
+      "required_fix": "Confirm consent or shoot hands, backs, and screen details only."
+    },
+    {
+      "scene_id": 5,
+      "risk": "Debug/terminal screen may contain usernames, file paths, or tokens.",
+      "required_fix": "Use a clean test project or crop sensitive areas."
+    },
+    {
+      "scene_id": 6,
+      "risk": "Final call-to-action may include an incorrect URL or unauthorized official mark.",
+      "required_fix": "Use department name text only unless URL/logo is verified."
+    }
+  ],
+  "shooting_safety_checklist": [
+    "Ask permission before filming identifiable people.",
+    "Avoid student IDs, grades, private chat windows, account names, passwords, and API keys.",
+    "Do not use copyrighted music unless license is documented.",
+    "Do not use school or department logos unless permission is confirmed.",
+    "Record source and permission notes in outputs/asset_sources.md."
+  ],
+  "revision_requests": [
+    "After replacing the generated video with self-edited footage, update outputs/asset_sources.md.",
+    "Keep the final export path as outputs/final_video.mp4 so README and report remain consistent.",
+    "Run a final duration check and keep the exported video between 55 and 65 seconds."
+  ],
+  "final_approval": true
+}
