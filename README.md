@@ -6,6 +6,7 @@
 - Team member: 羅暐媁
 - Platform: Hermes Agent on Linux
 - Video: `outputs/final_video.mp4`
+- Video viewing note: If GitHub cannot preview the MP4 directly because of file size, click `View raw` or download `outputs/final_video.mp4` to watch it locally.
 - Final video spec: 64.5 seconds, 1920x1080 MP4, H.264 video with AAC audio
 - Report: `report/Final_Report_NUTN_CSIE_Hermes.pdf`
 - Run mode: zero-paid-token mock/stub workflow, with deterministic handoff files and self-shot production plan
